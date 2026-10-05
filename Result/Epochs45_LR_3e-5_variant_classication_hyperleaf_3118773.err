@@ -1,0 +1,393 @@
+2025-10-22 01:09:44.719602: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-22 01:09:44.719600: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-22 01:09:44.719605: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-22 01:09:44.719603: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-22 01:09:44.732645: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-10-22 01:09:44.732647: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-10-22 01:09:44.732656: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-10-22 01:09:44.732625: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-10-22 01:09:44.744680: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-10-22 01:09:44.744673: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-10-22 01:09:44.744673: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-10-22 01:09:44.744673: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-10-22 01:09:44.748052: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-10-22 01:09:44.748047: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-10-22 01:09:44.748051: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-10-22 01:09:44.748043: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-10-22 01:09:44.757776: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-22 01:09:44.757776: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-22 01:09:44.757775: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-22 01:09:44.757775: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-22 01:10:23.359739: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 0
+2025-10-22 01:10:23.361284: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 77173 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:19:00.0, compute capability: 9.0
+2025-10-22 01:10:23.364665: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 1
+2025-10-22 01:10:23.369516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 77173 MB memory:  -> device: 1, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:3b:00.0, compute capability: 9.0
+2025-10-22 01:10:23.371774: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 2
+2025-10-22 01:10:23.372074: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 0
+2025-10-22 01:10:23.374681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 77173 MB memory:  -> device: 2, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:4c:00.0, compute capability: 9.0
+2025-10-22 01:10:23.374881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 77173 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:19:00.0, compute capability: 9.0
+2025-10-22 01:10:23.377580: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 1
+2025-10-22 01:10:23.380408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 77173 MB memory:  -> device: 1, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:3b:00.0, compute capability: 9.0
+2025-10-22 01:10:23.381538: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 2
+2025-10-22 01:10:23.384822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 77173 MB memory:  -> device: 2, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:4c:00.0, compute capability: 9.0
+2025-10-22 01:10:23.394644: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 0
+2025-10-22 01:10:23.395734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 77169 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:19:00.0, compute capability: 9.0
+2025-10-22 01:10:23.396185: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 1
+2025-10-22 01:10:23.397339: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 77169 MB memory:  -> device: 1, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:3b:00.0, compute capability: 9.0
+2025-10-22 01:10:23.398742: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 2
+2025-10-22 01:10:23.420743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 77169 MB memory:  -> device: 2, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:4c:00.0, compute capability: 9.0
+2025-10-22 01:10:23.422758: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 0
+2025-10-22 01:10:23.428100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 77167 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:19:00.0, compute capability: 9.0
+2025-10-22 01:10:23.428606: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 1
+2025-10-22 01:10:23.429738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 77167 MB memory:  -> device: 1, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:3b:00.0, compute capability: 9.0
+2025-10-22 01:10:23.430179: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:198] Using CUDA malloc Async allocator for GPU: 2
+2025-10-22 01:10:23.439651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2021] Created device /job:localhost/replica:0/task:0/device:GPU:2 with 77169 MB memory:  -> device: 2, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:4c:00.0, compute capability: 9.0
+/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/data/ops/structured_function.py:258: UserWarning: Even though the `tf.config.experimental_run_functions_eagerly` option is set, this option does not apply to tf.data functions. To force eager execution of tf.data functions, please use `tf.data.experimental.enable_debug_mode()`.
+  warnings.warn(
+/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/data/ops/structured_function.py:258: UserWarning: Even though the `tf.config.experimental_run_functions_eagerly` option is set, this option does not apply to tf.data functions. To force eager execution of tf.data functions, please use `tf.data.experimental.enable_debug_mode()`.
+  warnings.warn(
+/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/data/ops/structured_function.py:258: UserWarning: Even though the `tf.config.experimental_run_functions_eagerly` option is set, this option does not apply to tf.data functions. To force eager execution of tf.data functions, please use `tf.data.experimental.enable_debug_mode()`.
+  warnings.warn(
+/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/data/ops/structured_function.py:258: UserWarning: Even though the `tf.config.experimental_run_functions_eagerly` option is set, this option does not apply to tf.data functions. To force eager execution of tf.data functions, please use `tf.data.experimental.enable_debug_mode()`.
+  warnings.warn(
+2025-10-22 01:10:34.158343: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 74 of 100
+2025-10-22 01:10:34.158472: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 74 of 100
+2025-10-22 01:10:34.158614: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 74 of 100
+2025-10-22 01:10:34.167637: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 74 of 100
+2025-10-22 01:10:35.249314: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2025-10-22 01:10:35.252556: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2025-10-22 01:10:35.253469: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2025-10-22 01:10:35.261353: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+  0%|                                                                       | 0/636 [00:00<?, ?it/s]WARNING:tensorflow:Using MirroredStrategy eagerly has significant overhead currently. We will be working on improving this in the future, but for now please wrap `call_for_each_replica` or `experimental_run` or `run` inside a tf.function to get the best performance.
+  0%|                                                                       | 0/636 [00:00<?, ?it/s]WARNING:tensorflow:Using MirroredStrategy eagerly has significant overhead currently. We will be working on improving this in the future, but for now please wrap `call_for_each_replica` or `experimental_run` or `run` inside a tf.function to get the best performance.
+  0%|                                                                       | 0/636 [00:00<?, ?it/s]WARNING:tensorflow:Using MirroredStrategy eagerly has significant overhead currently. We will be working on improving this in the future, but for now please wrap `call_for_each_replica` or `experimental_run` or `run` inside a tf.function to get the best performance.
+  0%|                                                                       | 0/636 [00:00<?, ?it/s]WARNING:tensorflow:Using MirroredStrategy eagerly has significant overhead currently. We will be working on improving this in the future, but for now please wrap `call_for_each_replica` or `experimental_run` or `run` inside a tf.function to get the best performance.
+2025-10-22 01:10:49.953918: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:310] gpu_async_0 cuMemAllocAsync failed to allocate 327548928 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 5832704/85017624576
+2025-10-22 01:10:49.955456: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:315] Stats: Limit:                     80916054016
+InUse:                     20559222365
+MaxInUse:                  20559222365
+NumAllocs:                        2693
+MaxAllocSize:                327548928
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2025-10-22 01:10:49.955481: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:64] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2025-10-22 01:10:49.955486: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1, 1
+2025-10-22 01:10:49.955489: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 4, 33
+2025-10-22 01:10:49.955492: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 8, 7
+2025-10-22 01:10:49.955494: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12, 1
+2025-10-22 01:10:49.955496: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 16, 72
+2025-10-22 01:10:49.955499: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1028, 1
+2025-10-22 01:10:49.955501: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2544, 1
+2025-10-22 01:10:49.955503: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 3072, 223
+2025-10-22 01:10:49.955506: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 5088, 1
+2025-10-22 01:10:49.955508: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9216, 1
+2025-10-22 01:10:49.955510: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 10176, 1
+2025-10-22 01:10:49.955512: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12288, 24
+2025-10-22 01:10:49.955514: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20352, 1
+2025-10-22 01:10:49.955517: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 106624, 32
+2025-10-22 01:10:49.955519: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 602112, 1
+2025-10-22 01:10:49.955521: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 786432, 1
+2025-10-22 01:10:49.955523: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2359296, 100
+2025-10-22 01:10:49.955525: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9437184, 48
+2025-10-22 01:10:49.955527: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20471808, 7
+2025-10-22 01:10:49.955529: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 27295744, 4
+2025-10-22 01:10:49.955532: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 81887232, 111
+2025-10-22 01:10:49.955534: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 250779648, 8
+2025-10-22 01:10:49.955536: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 327548928, 26
+2025-10-22 01:10:49.955541: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:98] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 20870856704
+2025-10-22 01:10:49.955544: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 20559222365
+2025-10-22 01:10:49.955546: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 20870856704
+2025-10-22 01:10:49.955550: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:102] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 20559222365
+2025-10-22 01:10:49.955558: W tensorflow/core/framework/op_kernel.cc:1828] RESOURCE_EXHAUSTED: failed to allocate memory
+2025-10-22 01:10:49.955565: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: RESOURCE_EXHAUSTED: failed to allocate memory
+2025-10-22 01:10:49.954651: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:310] gpu_async_0 cuMemAllocAsync failed to allocate 81887232 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 5832704/85017624576
+2025-10-22 01:10:49.955827: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:315] Stats: Limit:                     80918151168
+InUse:                     17662035037
+MaxInUse:                  17723023997
+NumAllocs:                        2642
+MaxAllocSize:                327548928
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2025-10-22 01:10:49.955849: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:64] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2025-10-22 01:10:49.955853: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1, 1
+2025-10-22 01:10:49.955856: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 4, 33
+2025-10-22 01:10:49.955858: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 8, 7
+2025-10-22 01:10:49.955861: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12, 1
+2025-10-22 01:10:49.955864: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 16, 72
+2025-10-22 01:10:49.955867: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1028, 1
+2025-10-22 01:10:49.955871: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2544, 1
+2025-10-22 01:10:49.955874: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 3072, 223
+2025-10-22 01:10:49.955877: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 5088, 1
+2025-10-22 01:10:49.955879: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9216, 1
+2025-10-22 01:10:49.955883: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 10176, 1
+2025-10-22 01:10:49.955886: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12288, 24
+2025-10-22 01:10:49.955890: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20352, 1
+2025-10-22 01:10:49.955893: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 106624, 28
+2025-10-22 01:10:49.955897: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 602112, 1
+2025-10-22 01:10:49.955901: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 786432, 1
+2025-10-22 01:10:49.955904: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2359296, 100
+2025-10-22 01:10:49.955907: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9437184, 48
+2025-10-22 01:10:49.955910: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20471808, 6
+2025-10-22 01:10:49.955913: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 27295744, 4
+2025-10-22 01:10:49.955916: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 81887232, 90
+2025-10-22 01:10:49.955920: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 250779648, 6
+2025-10-22 01:10:49.955923: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 327548928, 24
+2025-10-22 01:10:49.955928: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:98] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 17918066688
+2025-10-22 01:10:49.955933: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 17662035037
+2025-10-22 01:10:49.954091: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:310] gpu_async_0 cuMemAllocAsync failed to allocate 250779648 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 5832704/85017624576
+2025-10-22 01:10:49.955842: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:315] Stats: Limit:                     80922345472
+InUse:                     18982466653
+MaxInUse:                  18982466653
+NumAllocs:                        2656
+MaxAllocSize:                327548928
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2025-10-22 01:10:49.955864: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:64] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2025-10-22 01:10:49.955870: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1, 1
+2025-10-22 01:10:49.955873: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 4, 33
+2025-10-22 01:10:49.955876: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 8, 7
+2025-10-22 01:10:49.955880: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12, 1
+2025-10-22 01:10:49.955883: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 16, 72
+2025-10-22 01:10:49.955886: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1028, 1
+2025-10-22 01:10:49.955890: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2544, 1
+2025-10-22 01:10:49.955893: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 3072, 223
+2025-10-22 01:10:49.955897: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 5088, 1
+2025-10-22 01:10:49.955900: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9216, 1
+2025-10-22 01:10:49.955903: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 10176, 1
+2025-10-22 01:10:49.955906: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12288, 24
+2025-10-22 01:10:49.955910: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20352, 1
+2025-10-22 01:10:49.955913: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 106624, 28
+2025-10-22 01:10:49.955916: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 602112, 1
+2025-10-22 01:10:49.955920: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 786432, 1
+2025-10-22 01:10:49.955923: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2359296, 100
+2025-10-22 01:10:49.955928: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9437184, 48
+2025-10-22 01:10:49.955932: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20471808, 6
+2025-10-22 01:10:49.955934: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 27295744, 4
+2025-10-22 01:10:49.955937: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 81887232, 100
+2025-10-22 01:10:49.955940: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 250779648, 8
+2025-10-22 01:10:49.955943: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 327548928, 24
+2025-10-22 01:10:49.955947: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:98] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 19461570560
+2025-10-22 01:10:49.955950: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 18982466653
+2025-10-22 01:10:49.954354: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:310] gpu_async_0 cuMemAllocAsync failed to allocate 81887232 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 5832704/85017624576
+2025-10-22 01:10:49.955831: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:315] Stats: Limit:                     80922345472
+InUse:                     23937497181
+MaxInUse:                  23937497181
+NumAllocs:                        2745
+MaxAllocSize:                327548928
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2025-10-22 01:10:49.955857: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:64] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2025-10-22 01:10:49.955863: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1, 1
+2025-10-22 01:10:49.955867: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 4, 33
+2025-10-22 01:10:49.955871: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 8, 7
+2025-10-22 01:10:49.955874: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12, 1
+2025-10-22 01:10:49.955878: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 16, 72
+2025-10-22 01:10:49.955881: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 1028, 1
+2025-10-22 01:10:49.955884: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2544, 1
+2025-10-22 01:10:49.955887: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 3072, 223
+2025-10-22 01:10:49.955890: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 5088, 1
+2025-10-22 01:10:49.955894: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9216, 1
+2025-10-22 01:10:49.955897: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 10176, 1
+2025-10-22 01:10:49.955902: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 12288, 24
+2025-10-22 01:10:49.955905: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20352, 1
+2025-10-22 01:10:49.955908: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 106624, 36
+2025-10-22 01:10:49.955911: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 602112, 1
+2025-10-22 01:10:49.955914: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 786432, 1
+2025-10-22 01:10:49.955917: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 2359296, 100
+2025-10-22 01:10:49.955921: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 9437184, 48
+2025-10-22 01:10:49.955924: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 20471808, 8
+2025-10-22 01:10:49.955928: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 27295744, 4
+2025-10-22 01:10:49.955933: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 81887232, 128
+2025-10-22 01:10:49.955936: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 250779648, 8
+2025-10-22 01:10:49.955940: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:67] 327548928, 32
+2025-10-22 01:10:49.955945: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:98] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 24259854336
+2025-10-22 01:10:49.955949: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 23937497181
+2025-10-22 01:10:49.955937: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 17918066688
+2025-10-22 01:10:49.955942: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:102] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 17723023997
+2025-10-22 01:10:49.955948: W tensorflow/core/framework/op_kernel.cc:1828] RESOURCE_EXHAUSTED: failed to allocate memory
+2025-10-22 01:10:49.955955: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: RESOURCE_EXHAUSTED: failed to allocate memory
+2025-10-22 01:10:49.955953: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 19461570560
+2025-10-22 01:10:49.955958: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:102] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 18982466653
+2025-10-22 01:10:49.955969: W tensorflow/core/framework/op_kernel.cc:1840] OP_REQUIRES failed at softmax_op_gpu.cu.cc:192 : RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[136,12,196,196] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0
+2025-10-22 01:10:49.955976: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[136,12,196,196] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0
+2025-10-22 01:10:49.955952: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 24259854336
+2025-10-22 01:10:49.955957: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:102] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 23937497181
+2025-10-22 01:10:49.955968: W tensorflow/core/framework/op_kernel.cc:1840] OP_REQUIRES failed at einsum_op_impl.h:523 : RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[136,12,196,64] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0
+2025-10-22 01:10:49.955976: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[136,12,196,64] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0
+  0%|                                                                       | 0/636 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 587, in <module>
+  0%|                                                                       | 0/636 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 587, in <module>
+  0%|                                                                       | 0/636 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 587, in <module>
+  0%|                                                                       | 0/636 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 587, in <module>
+    loss = distributed_train_step((x_batch, y_batch))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    loss = distributed_train_step((x_batch, y_batch))
+    loss = distributed_train_step((x_batch, y_batch))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+  File "/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    loss = distributed_train_step((x_batch, y_batch))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 561, in distributed_train_step
+    raise e.with_traceback(filtered_tb) from None
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 561, in distributed_train_step
+    raise e.with_traceback(filtered_tb) from None
+    raise e.with_traceback(filtered_tb) from None
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 561, in distributed_train_step
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 561, in distributed_train_step
+    per_replica_losses = strategy.run(train_step, args=(dist_inputs,))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 540, in train_step
+    per_replica_losses = strategy.run(train_step, args=(dist_inputs,))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 540, in train_step
+    per_replica_losses = strategy.run(train_step, args=(dist_inputs,))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 540, in train_step
+    logits = BA_model(x, training=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    per_replica_losses = strategy.run(train_step, args=(dist_inputs,))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 540, in train_step
+    logits = BA_model(x, training=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    logits = BA_model(x, training=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    logits = BA_model(x, training=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naresh/HSI/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+    raise e.with_traceback(filtered_tb) from None
+    raise e.with_traceback(filtered_tb) from None
+    raise e.with_traceback(filtered_tb) from None
+        ^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 453, in call
+        ^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 453, in call
+        ^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 453, in call
+        ^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 453, in call
+    band_with_patch_embedding = generate_per_band_embedding(patch_cube, self.EachBandEncoder, self.embedding_dim)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 334, in generate_per_band_embedding
+    band_with_patch_embedding = generate_per_band_embedding(patch_cube, self.EachBandEncoder, self.embedding_dim)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 334, in generate_per_band_embedding
+    band_with_patch_embedding = generate_per_band_embedding(patch_cube, self.EachBandEncoder, self.embedding_dim)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 334, in generate_per_band_embedding
+    encoded_flat = EachBandEncoder(flat_split)  # [B*chunk_bands, P, embed_dim]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 284, in call
+    encoded_flat = EachBandEncoder(flat_split)  # [B*chunk_bands, P, embed_dim]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 284, in call
+    encoded_flat = EachBandEncoder(flat_split)  # [B*chunk_bands, P, embed_dim]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 284, in call
+    band_with_patch_embedding = generate_per_band_embedding(patch_cube, self.EachBandEncoder, self.embedding_dim)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 334, in generate_per_band_embedding
+    x = block(x, training=training, return_attention = False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 240, in call
+    x = block(x, training=training, return_attention = False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 246, in call
+    encoded_flat = EachBandEncoder(flat_split)  # [B*chunk_bands, P, embed_dim]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 284, in call
+    x = self.normalizelayer1(inputs)
+    attnt_output = self.attention(x,x)
+                   ^^^^^^^^^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Exception encountered when calling LayerNormalization.call().
+
+[1m{{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:GPU:0}} failed to allocate memory [Op:Mul] name: [0m
+
+Arguments received by LayerNormalization.call():
+  • inputs=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Exception encountered when calling MultiHeadAttention.call().
+
+[1m{{function_node __wrapped__Softmax_device_/job:localhost/replica:0/task:0/device:GPU:0}} OOM when allocating tensor with shape[136,12,196,196] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0 [Op:Softmax] name: [0m
+
+Arguments received by MultiHeadAttention.call():
+  • query=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+  • value=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+  • key=None
+  • query_mask=None
+  • value_mask=None
+  • key_mask=None
+  • attention_mask=None
+  • return_attention_scores=False
+  • training=True
+  • use_causal_mask=False
+    x = block(x, training=training, return_attention = False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 246, in call
+    x = block(x, training=training, return_attention = False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/6087070/naresh/HSI/BA_Transformer/Variant_classification_Data and model parallel training_3GPU_Classification_HyperLeaf2024.py", line 251, in call
+    attnt_output = self.attention(x,x)
+                   ^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Exception encountered when calling MultiHeadAttention.call().
+
+[1m{{function_node __wrapped__Einsum_N_2_device_/job:localhost/replica:0/task:0/device:GPU:0}} OOM when allocating tensor with shape[136,12,196,64] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0 [Op:Einsum] name: [0m
+
+Arguments received by MultiHeadAttention.call():
+  • query=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+  • value=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+  • key=None
+  • query_mask=None
+  • value_mask=None
+  • key_mask=None
+  • attention_mask=None
+  • return_attention_scores=False
+  • training=True
+  • use_causal_mask=False
+    y = self.mlp(y)
+        ^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Exception encountered when calling Dense.call().
+
+[1m{{function_node __wrapped__RealDiv_device_/job:localhost/replica:0/task:0/device:GPU:0}} failed to allocate memory [Op:RealDiv] name: [0m
+
+Arguments received by Dense.call():
+  • inputs=tf.Tensor(shape=(136, 196, 768), dtype=float32)
+  • training=True
+srun: error: g7: task 1: Exited with exit code 1
+srun: Terminating StepId=3118773.0
+slurmstepd: error: *** STEP 3118773.0 ON g7 CANCELLED AT 2025-10-22T01:10:51 ***
+srun: error: g7: task 0: Exited with exit code 1
+srun: error: g7: task 3: Exited with exit code 1
+srun: error: g7: task 2: Exited with exit code 1

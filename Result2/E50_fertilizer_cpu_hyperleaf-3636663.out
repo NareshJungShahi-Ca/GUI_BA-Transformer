@@ -1,0 +1,269 @@
+Total number of train sample: 1272
+Total numbee of val sample: 318
+Total Train Batch: 636
+Total Val Batch: 159
+Train-image shape: (2, 224, 224, 204)
+Train-label shape: (2, 3)
+Val-image shape: (2, 224, 224, 204)
+Val-label shape: (2, 3)
+Restored from ./checkpoints/ckpt-50 (starting at epoch 50)
+
+Epoch 1/50
+Epoch 1 done in 7268.45s — loss: 2.7120 - acc: 0.4049
+Val Loss: 2.9392 - Val Acc: 0.4811
+[Epoch 1 end] Memory usage: 127.24 GB
+📦 Epoch 1 checkpoint saved: ./checkpoints/ckpt-51
+
+Epoch 2/50
+Epoch 2 done in 6982.33s — loss: 2.4561 - acc: 0.4190
+Val Loss: 2.7900 - Val Acc: 0.4811
+[Epoch 2 end] Memory usage: 128.15 GB
+📦 Epoch 2 checkpoint saved: ./checkpoints/ckpt-52
+
+Epoch 3/50
+Epoch 3 done in 7072.92s — loss: 2.4584 - acc: 0.4426
+Val Loss: 1.8598 - Val Acc: 0.4811
+[Epoch 3 end] Memory usage: 128.16 GB
+📦 Epoch 3 checkpoint saved: ./checkpoints/ckpt-53
+
+Epoch 4/50
+Epoch 4 done in 6861.57s — loss: 2.4708 - acc: 0.4292
+Val Loss: 2.2145 - Val Acc: 0.4811
+[Epoch 4 end] Memory usage: 128.16 GB
+📦 Epoch 4 checkpoint saved: ./checkpoints/ckpt-54
+
+Epoch 5/50
+Epoch 5 done in 6847.02s — loss: 2.1956 - acc: 0.4623
+Val Loss: 2.0672 - Val Acc: 0.5472
+[Epoch 5 end] Memory usage: 128.17 GB
+📦 Epoch 5 checkpoint saved: ./checkpoints/ckpt-55
+
+Epoch 6/50
+Epoch 6 done in 7059.66s — loss: 2.3327 - acc: 0.4536
+Val Loss: 1.3298 - Val Acc: 0.5786
+[Epoch 6 end] Memory usage: 128.18 GB
+📦 Epoch 6 checkpoint saved: ./checkpoints/ckpt-56
+
+Epoch 7/50
+Epoch 7 done in 7297.94s — loss: 2.3482 - acc: 0.4371
+Val Loss: 3.4605 - Val Acc: 0.4811
+[Epoch 7 end] Memory usage: 128.19 GB
+📦 Epoch 7 checkpoint saved: ./checkpoints/ckpt-57
+
+Epoch 8/50
+Epoch 8 done in 7199.26s — loss: 2.0903 - acc: 0.4764
+Val Loss: 3.2726 - Val Acc: 0.4843
+[Epoch 8 end] Memory usage: 128.22 GB
+📦 Epoch 8 checkpoint saved: ./checkpoints/ckpt-58
+
+Epoch 9/50
+Epoch 9 done in 7168.95s — loss: 2.0699 - acc: 0.4882
+Val Loss: 2.1920 - Val Acc: 0.5597
+[Epoch 9 end] Memory usage: 128.22 GB
+📦 Epoch 9 checkpoint saved: ./checkpoints/ckpt-59
+
+Epoch 10/50
+Epoch 10 done in 7140.13s — loss: 1.8818 - acc: 0.5086
+Val Loss: 1.1853 - Val Acc: 0.6509
+[Epoch 10 end] Memory usage: 128.13 GB
+📦 Epoch 10 checkpoint saved: ./checkpoints/ckpt-60
+
+Epoch 11/50
+Epoch 11 done in 6970.24s — loss: 1.7738 - acc: 0.5354
+Val Loss: 1.5650 - Val Acc: 0.3428
+[Epoch 11 end] Memory usage: 128.14 GB
+📦 Epoch 11 checkpoint saved: ./checkpoints/ckpt-61
+
+Epoch 12/50
+Epoch 12 done in 6679.66s — loss: 1.5954 - acc: 0.5723
+Val Loss: 1.6334 - Val Acc: 0.3553
+[Epoch 12 end] Memory usage: 128.14 GB
+📦 Epoch 12 checkpoint saved: ./checkpoints/ckpt-62
+
+Epoch 13/50
+Epoch 13 done in 6623.72s — loss: 1.6346 - acc: 0.5369
+Val Loss: 1.0138 - Val Acc: 0.6352
+[Epoch 13 end] Memory usage: 128.15 GB
+📦 Epoch 13 checkpoint saved: ./checkpoints/ckpt-63
+
+Epoch 14/50
+Epoch 14 done in 6712.42s — loss: 1.4646 - acc: 0.5928
+Val Loss: 0.9824 - Val Acc: 0.6981
+[Epoch 14 end] Memory usage: 128.18 GB
+📦 Epoch 14 checkpoint saved: ./checkpoints/ckpt-64
+
+Epoch 15/50
+Epoch 15 done in 7008.27s — loss: 1.3978 - acc: 0.5794
+Val Loss: 1.4153 - Val Acc: 0.6195
+[Epoch 15 end] Memory usage: 128.19 GB
+📦 Epoch 15 checkpoint saved: ./checkpoints/ckpt-65
+
+Epoch 16/50
+Epoch 16 done in 6875.42s — loss: 1.5654 - acc: 0.5346
+Val Loss: 1.6383 - Val Acc: 0.4088
+[Epoch 16 end] Memory usage: 128.20 GB
+📦 Epoch 16 checkpoint saved: ./checkpoints/ckpt-66
+
+Epoch 17/50
+Epoch 17 done in 6920.10s — loss: 1.4516 - acc: 0.5715
+Val Loss: 1.1847 - Val Acc: 0.6289
+[Epoch 17 end] Memory usage: 128.20 GB
+📦 Epoch 17 checkpoint saved: ./checkpoints/ckpt-67
+
+Epoch 18/50
+Epoch 18 done in 6979.20s — loss: 1.4385 - acc: 0.5708
+Val Loss: 1.2360 - Val Acc: 0.6195
+[Epoch 18 end] Memory usage: 128.20 GB
+📦 Epoch 18 checkpoint saved: ./checkpoints/ckpt-68
+
+Epoch 19/50
+Epoch 19 done in 6967.45s — loss: 1.3789 - acc: 0.6085
+Val Loss: 1.2247 - Val Acc: 0.3805
+[Epoch 19 end] Memory usage: 128.20 GB
+📦 Epoch 19 checkpoint saved: ./checkpoints/ckpt-69
+
+Epoch 20/50
+Epoch 20 done in 6843.28s — loss: 1.3213 - acc: 0.6195
+Val Loss: 0.8875 - Val Acc: 0.7264
+[Epoch 20 end] Memory usage: 128.20 GB
+📦 Epoch 20 checkpoint saved: ./checkpoints/ckpt-70
+
+Epoch 21/50
+Epoch 21 done in 6803.25s — loss: 1.2998 - acc: 0.6156
+Val Loss: 1.5489 - Val Acc: 0.4843
+[Epoch 21 end] Memory usage: 128.20 GB
+📦 Epoch 21 checkpoint saved: ./checkpoints/ckpt-71
+
+Epoch 22/50
+Epoch 22 done in 6829.42s — loss: 1.2560 - acc: 0.6344
+Val Loss: 1.0788 - Val Acc: 0.6730
+[Epoch 22 end] Memory usage: 129.30 GB
+📦 Epoch 22 checkpoint saved: ./checkpoints/ckpt-72
+
+Epoch 23/50
+Epoch 23 done in 7009.80s — loss: 1.1199 - acc: 0.6847
+Val Loss: 1.4846 - Val Acc: 0.4874
+[Epoch 23 end] Memory usage: 129.30 GB
+📦 Epoch 23 checkpoint saved: ./checkpoints/ckpt-73
+
+Epoch 24/50
+Epoch 24 done in 6986.88s — loss: 1.0980 - acc: 0.6887
+Val Loss: 0.9361 - Val Acc: 0.5409
+[Epoch 24 end] Memory usage: 129.30 GB
+📦 Epoch 24 checkpoint saved: ./checkpoints/ckpt-74
+
+Epoch 25/50
+Epoch 25 done in 6981.77s — loss: 1.0181 - acc: 0.7233
+Val Loss: 1.2647 - Val Acc: 0.4088
+[Epoch 25 end] Memory usage: 129.31 GB
+📦 Epoch 25 checkpoint saved: ./checkpoints/ckpt-75
+
+Epoch 26/50
+Epoch 26 done in 6966.82s — loss: 0.9636 - acc: 0.7256
+Val Loss: 1.6173 - Val Acc: 0.4088
+[Epoch 26 end] Memory usage: 129.32 GB
+📦 Epoch 26 checkpoint saved: ./checkpoints/ckpt-76
+
+Epoch 27/50
+Epoch 27 done in 6917.56s — loss: 0.9937 - acc: 0.7366
+Val Loss: 2.3101 - Val Acc: 0.2013
+[Epoch 27 end] Memory usage: 129.32 GB
+📦 Epoch 27 checkpoint saved: ./checkpoints/ckpt-77
+
+Epoch 28/50
+Epoch 28 done in 6804.23s — loss: 1.0472 - acc: 0.7178
+Val Loss: 0.9004 - Val Acc: 0.6855
+[Epoch 28 end] Memory usage: 129.32 GB
+📦 Epoch 28 checkpoint saved: ./checkpoints/ckpt-78
+
+Epoch 29/50
+Epoch 29 done in 6637.46s — loss: 0.9560 - acc: 0.7374
+Val Loss: 0.8698 - Val Acc: 0.8239
+[Epoch 29 end] Memory usage: 129.32 GB
+📦 Epoch 29 checkpoint saved: ./checkpoints/ckpt-79
+
+Epoch 30/50
+Epoch 30 done in 6637.68s — loss: 1.0268 - acc: 0.7358
+Val Loss: 1.1874 - Val Acc: 0.8050
+[Epoch 30 end] Memory usage: 129.32 GB
+📦 Epoch 30 checkpoint saved: ./checkpoints/ckpt-80
+
+Epoch 31/50
+Epoch 31 done in 6658.45s — loss: 0.9520 - acc: 0.7445
+Val Loss: 0.8922 - Val Acc: 0.6950
+[Epoch 31 end] Memory usage: 129.32 GB
+📦 Epoch 31 checkpoint saved: ./checkpoints/ckpt-81
+
+Epoch 32/50
+Epoch 32 done in 6626.72s — loss: 0.9594 - acc: 0.7445
+Val Loss: 0.9527 - Val Acc: 0.5566
+[Epoch 32 end] Memory usage: 129.32 GB
+📦 Epoch 32 checkpoint saved: ./checkpoints/ckpt-82
+
+Epoch 33/50
+Epoch 33 done in 6614.88s — loss: 1.0990 - acc: 0.6950
+Val Loss: 0.9648 - Val Acc: 0.8208
+[Epoch 33 end] Memory usage: 129.32 GB
+📦 Epoch 33 checkpoint saved: ./checkpoints/ckpt-83
+
+Epoch 34/50
+Epoch 34 done in 6626.32s — loss: 1.0176 - acc: 0.7303
+Val Loss: 1.7783 - Val Acc: 0.5849
+[Epoch 34 end] Memory usage: 129.32 GB
+📦 Epoch 34 checkpoint saved: ./checkpoints/ckpt-84
+
+Epoch 35/50
+Epoch 35 done in 6768.13s — loss: 1.0301 - acc: 0.7351
+Val Loss: 1.8060 - Val Acc: 0.4465
+[Epoch 35 end] Memory usage: 129.32 GB
+📦 Epoch 35 checkpoint saved: ./checkpoints/ckpt-85
+
+Epoch 36/50
+Epoch 36 done in 7083.62s — loss: 1.1793 - acc: 0.6871
+Val Loss: 0.9057 - Val Acc: 0.7987
+[Epoch 36 end] Memory usage: 129.32 GB
+📦 Epoch 36 checkpoint saved: ./checkpoints/ckpt-86
+
+Epoch 37/50
+Epoch 37 done in 7034.45s — loss: 1.1972 - acc: 0.6407
+Val Loss: 1.1284 - Val Acc: 0.6572
+[Epoch 37 end] Memory usage: 129.32 GB
+📦 Epoch 37 checkpoint saved: ./checkpoints/ckpt-87
+
+Epoch 38/50
+Epoch 38 done in 7018.95s — loss: 1.4729 - acc: 0.5723
+Val Loss: 1.4328 - Val Acc: 0.6321
+[Epoch 38 end] Memory usage: 129.33 GB
+📦 Epoch 38 checkpoint saved: ./checkpoints/ckpt-88
+
+Epoch 39/50
+Epoch 39 done in 7031.58s — loss: 1.3922 - acc: 0.5865
+Val Loss: 0.9618 - Val Acc: 0.7138
+[Epoch 39 end] Memory usage: 129.33 GB
+📦 Epoch 39 checkpoint saved: ./checkpoints/ckpt-89
+
+Epoch 40/50
+Epoch 40 done in 6873.16s — loss: 1.3315 - acc: 0.6164
+Val Loss: 1.6206 - Val Acc: 0.5503
+[Epoch 40 end] Memory usage: 129.33 GB
+📦 Epoch 40 checkpoint saved: ./checkpoints/ckpt-90
+
+Epoch 41/50
+Epoch 41 done in 6565.48s — loss: 1.3137 - acc: 0.6179
+Val Loss: 1.2729 - Val Acc: 0.6069
+[Epoch 41 end] Memory usage: 129.33 GB
+📦 Epoch 41 checkpoint saved: ./checkpoints/ckpt-91
+
+Epoch 42/50
+Epoch 42 done in 6536.44s — loss: 1.3044 - acc: 0.6297
+Val Loss: 0.8069 - Val Acc: 0.7862
+[Epoch 42 end] Memory usage: 129.33 GB
+📦 Epoch 42 checkpoint saved: ./checkpoints/ckpt-92
+
+Epoch 43/50
+Epoch 43 done in 6529.87s — loss: 1.3052 - acc: 0.6352
+Val Loss: 1.0237 - Val Acc: 0.7830
+[Epoch 43 end] Memory usage: 129.33 GB
+📦 Epoch 43 checkpoint saved: ./checkpoints/ckpt-93
+
+Epoch 44/50

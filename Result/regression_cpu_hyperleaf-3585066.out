@@ -1,0 +1,18 @@
+Total number of train sample: 1272
+Total numbee of val sample: 318
+Total Train Batch: 636
+Total Val Batch: 159
+Train-image shape: (2, 224, 224, 204)
+Train-label shape: (2, 4)
+Val-image shape: (2, 224, 224, 204)
+Val-label shape: (2, 4)
+Starting training from scratch.
+
+Epoch 1/100
+Epoch 2 done in 17409.45s — loss: 10840955.8070 - acc: 10840954.0000
+Val Loss: 8598347.1069 - Val Acc: 8598347.0000
+[Epoch 2 end] Memory usage: 122.77 GB
+📦 Epoch 2 checkpoint saved: ./checkpoints/ckpt-1
+
+Epoch 2/100
+Epoch 3 done in 17419.05s — loss: 4640834.4172 - acc: 4640837.0000
